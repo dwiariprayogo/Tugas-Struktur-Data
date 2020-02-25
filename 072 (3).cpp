@@ -12,19 +12,19 @@ int main()
 	pembeli p[100];
 	p[0].kode_pbl="P001";
 	p[0].status = "Member";
-	p[0].nama = "deni";
+	p[0].nama = "Diana";
 	p[1].kode_pbl="P002";
 	p[1].status = "Member";
-	p[1].nama = "jafar";
+	p[1].nama = "Rina";
 	p[2].kode_pbl="P003";
 	p[2].status = "Bukan Member";
-	p[2].nama = "yoga";
+	p[2].nama = "Lina";
 	p[3].kode_pbl="P004";
 	p[3].status = "Bukan Member";
-	p[3].nama = "roni";
+	p[3].nama = "Doni";
 	p[4].kode_pbl="P005";
 	p[4].status = "Member";
-	p[4].nama = "alfin";
+	p[4].nama = "Dodi";
 	int jumlah_pembeli=5;
 
 	struct barang{
@@ -34,20 +34,20 @@ int main()
 	};
 	barang b[100];
 	b[0].kode_brg="BRG001";
-	b[0].nama_brg = "buku gambar";
-	b[0].harga = 1500;
+	b[0].nama_brg = "pensil";
+	b[0].harga = 2000;
 	b[1].kode_brg="BRG002";
-	b[1].nama_brg = "pengsil";
-	b[1].harga = 2000;
+	b[1].nama_brg = "buku tulis";
+	b[1].harga = 1500;
 	b[2].kode_brg="BRG003";
-	b[2].nama_brg = "pengaris";
-	b[2].harga = 3000;
+	b[2].nama_brg = "penghapus";
+	b[2].harga = 1000;
 	b[3].kode_brg="BRG004";
-	b[3].nama_brg = "kater";
-	b[3].harga = 250;
+	b[3].nama_brg = "penggaris";
+	b[3].harga = 1500;
 	b[4].kode_brg="BRG005";
-	b[4].nama_brg = "pita";
-	b[4].harga = 1000;
+	b[4].nama_brg = "bollpoin";
+	b[4].harga = 2500;
 	int jumlah_barang = 5;
 
 	cout<<"Print Out Nota Pembelian\n";
